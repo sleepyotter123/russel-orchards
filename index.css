@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.stack-sections{
+	display: flex;
+	flex-direction: column;
+}
+.responsive {
+	width: 50%;
+	height: auto;
+  }
+
+@media (max-width: 800px){
+	.responsive{
+		width: 100%;
+	}
+}
+
+.text-image-container {
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	z-index: 100;
+	left: 0;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+}
+
+.text-container {
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	z-index: 100;
+	left: 0;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+	.text-image-container {
+	  flex-direction: column;
+	  width: 100%;
+	}
+  }
+
+.intro-paragraph-box {
+	background-color: #FFCE63;
+	align-items: center;
+}  
+
+.location-paragraph-box{
+	background-color: #9CCE9C;
+}
+
+.text-within-box{
+	align-items: center;
+	padding: 40px 40px 30px 40px;
+}
+
+.nav-item {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 1.25rem;
+	margin: 0 5px;
+}
+
+.text-blurb {
+	padding: 30px;
+}
+
+.text-container{
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	z-index: 100;
+	left: 0;
+	width: 100%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.text-container {
+	  flex-direction: column;
+	  width: 100%;
+	  padding: 20px 150px 20px 150px;
+	}
+  }
+
+
+/* footer */
+.icon {
+	height: 45px;
+	color: rgba(0,0,0,.5);
+  }
+  .icon:hover {
+	color: black;
+  }
+  .footer {
+	flex-direction: row;
+	text-align: center;
+	background-color: #ffffff;
+
+  }
